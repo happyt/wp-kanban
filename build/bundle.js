@@ -104,7 +104,7 @@
 
 
 	// module
-	exports.push([module.id, "body {\r\n    background: #abf9fb;\r\n}", ""]);
+	exports.push([module.id, "body {\r\n    background: #fbefdd;\r\n}", ""]);
 
 	// exports
 
