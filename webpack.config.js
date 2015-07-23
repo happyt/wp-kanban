@@ -14,6 +14,17 @@ var common = {
     module: {
         loaders: [
             {
+                // test for both js and jsx
+                test: /\.jsx?$/,
+
+                // use babel loader with Stage 1 features
+                loader: 'babel?stage=1',
+
+                // operate only on our app directory
+                include: path.resolve(ROOT_PATH, 'app')
+            },
+        loaders: [
+            {
                 test: /\.css$/,
                 loaders: ['style', 'css']
             }
